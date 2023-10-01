@@ -12,7 +12,7 @@ This is a website optimization project that consolidates repeated code, ensures 
 ![Horiseon home page](./assets/images/horiseon-home-page.png)
 
 Click this link to visit the site:  
-[Horiseon]()
+[Horiseon](https://kiyodosan.github.io/UCI-BOOTCAMP-WEEK-1-CODE-REFACTORING/)
 
 ## How to use this project
 
