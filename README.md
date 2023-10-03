@@ -1,11 +1,11 @@
 
-# Code Rafactoring Challenge
+# Code Refactoring Challenge
 
 ___
 
 ## Project Description
 
-This is a website optimization project that consolidates repeated code, ensures all navagation links are working properly, and follows proper format and naming conventions. Comments have been included to explain how each section of the page works.
+This is a website optimization project that consolidates repeated code, ensures all navagation links are working properly, includes semantic elements for screen readers, and follows proper format and naming conventions. Comments have been included to explain how each section of the page works.
 
 ## How to run this project
 
