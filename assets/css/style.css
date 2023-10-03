@@ -1,3 +1,4 @@
+/* Sizes content to fit the whole screen. */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Sets the header font and stylizes with color. Child elements affect size and positioning. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +52,7 @@ body {
     font-size: 16px;
 }
 
+/* Sets the image to the background. Surface area shown depends on viewport size. */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +62,7 @@ body {
     background-position: center;
 }
 
+/* Hides image provided in HTML portion to allow for alt text. */
 #no-display {
     display: none;
 }
@@ -73,23 +77,14 @@ body {
     margin-left: 25px;
 }
 
+/* Sizes each content box to take up a greater portion of the viewport. Changes stacking functionality. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
+/* Child elements provide font type, add coloring, and affect size and positioning. */
 .content-box {
     margin-bottom: 20px;
     padding: 50px;
@@ -108,6 +103,19 @@ body {
     font-size: 36px;
 }
 
+/* Sizes each benefit box to take up a lesser portion of the viewport. Also provides font type and background coloring.  */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Child elements add coloring and affect positioning. */
 .benefit-mini-box {
     margin-bottom: 32px;
     color: #ffffff;
@@ -124,6 +132,7 @@ body {
     max-width: 150px;
 }
 
+/* Sets the footer font and affects positioning. Child element resizes font. */
 .footer {
     padding: 30px;
     clear: both;
